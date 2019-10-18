@@ -50,4 +50,14 @@ public class ShoppingBasketTest {
         shoppingBasket.add(beef);
         assertEquals(2, shoppingBasket.getCount());
     }
+
+    @Test
+    public void canEmptyBasket(){
+        shoppingBasket.add(apple);
+        shoppingBasket.add(beef);
+        shoppingBasket.empty();
+        assertEquals(0, shoppingBasket.getCount());
+    }
+
+    
 }

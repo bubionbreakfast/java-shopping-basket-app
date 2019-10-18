@@ -44,4 +44,8 @@ public class ShoppingBasket {
     public void remove(IItem item) {
         this.items.remove(item);
     }
+
+    public void empty() {
+        this.items.clear();
+    }
 }
