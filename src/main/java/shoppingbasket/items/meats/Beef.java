@@ -16,6 +16,10 @@ public class Beef extends Item implements IItem {
         return 0;
     }
 
+    public int index() {
+        return 0;
+    }
+
     public int price(int item) {
         return this.getPrice();
     }

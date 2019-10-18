@@ -15,4 +15,8 @@ public class Banana extends Item implements IItem {
     public int total() {
         return 0;
     }
+
+    public int index() {
+        return 0;
+    }
 }

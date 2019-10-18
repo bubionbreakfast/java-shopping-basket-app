@@ -9,4 +9,8 @@ public interface IItem {
     int total();
 
     int getPrice();
+
+    String getName();
+
+    int index();
 }

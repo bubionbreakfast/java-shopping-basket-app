@@ -3,10 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd14199-2f30-4e80-a4cb-ac954f1e19fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/drinks/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/drinks/Beer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Banana.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/IItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/IItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/drinks/Beer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/drinks/Beer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Apple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Banana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Beef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Beef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Chicken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canGetBasketTotal">
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canApplyBuy1Get1FreeDiscount">
     <configuration name="ShoppingBasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingBasket" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingBasketTest.canAddItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingBasketTest.canApplyBuy1Get1FreeDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingBasket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="canAddItem" />
+      <option name="METHOD_NAME" value="canApplyBuy1Get1FreeDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.canApplyBuy1Get1FreeDiscount" />
         <item itemvalue="JUnit.ShoppingBasketTest.canGetBasketTotal" />
         <item itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.canRemoveItem" />
         <item itemvalue="JUnit.ShoppingBasketTest" />
-        <item itemvalue="JUnit.ShoppingBasketTest.canAddItem" />
       </list>
     </recent_temporary>
   </component>
@@ -138,5 +151,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

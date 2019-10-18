@@ -1,15 +1,16 @@
 
 
 import shoppingbasket.items.IItem;
-import shoppingbasket.items.drinks.Beer;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class ShoppingBasket {
 
     private String name;
     private int capacity;
-    private ArrayList<IItem> items;
+    private List<IItem> items;
     IItem getPrice;
 
     public ShoppingBasket(String name, int capacity) {
@@ -30,7 +31,7 @@ public class ShoppingBasket {
         this.name = name;
     }
 
-    public ArrayList<IItem> getItems() {
+    public List<IItem> getItems() {
         return items;
     }
 
@@ -57,5 +58,15 @@ public class ShoppingBasket {
            basketTotal += item.getPrice();
        }
        return basketTotal;
+    }
+
+    public int buy1Get1Free() {
+        int basketTotal = 0;
+        items = items.stream().distinct().collect(Collectors.toList());
+
+        for(IItem item : this.items){
+            basketTotal += item.getPrice();
+        }
+        return basketTotal;
     }
 }

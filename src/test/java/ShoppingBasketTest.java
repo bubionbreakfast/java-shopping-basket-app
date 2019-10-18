@@ -66,4 +66,14 @@ public class ShoppingBasketTest {
         shoppingBasket.add(beer);
         assertEquals(9, shoppingBasket.total());
     }
+
+    @Test
+    public void canApplyBuy1Get1FreeDiscount(){
+        shoppingBasket.add(beer);
+        shoppingBasket.add(beer);
+        shoppingBasket.add(beef);
+        shoppingBasket.add(apple);
+        shoppingBasket.buy1Get1Free();
+        assertEquals(9, shoppingBasket.total());
+    }
 }
