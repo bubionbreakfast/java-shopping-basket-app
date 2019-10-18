@@ -11,4 +11,12 @@ public class Beef extends Item implements IItem {
     public String add(String item) {
         return null;
     }
+
+    public int total() {
+        return 0;
+    }
+
+    public int price(int item) {
+        return this.getPrice();
+    }
 }

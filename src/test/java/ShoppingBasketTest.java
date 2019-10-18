@@ -59,5 +59,11 @@ public class ShoppingBasketTest {
         assertEquals(0, shoppingBasket.getCount());
     }
 
-    
+    @Test
+    public void canGetBasketTotal(){
+        shoppingBasket.add(beef);
+        shoppingBasket.add(apple);
+        shoppingBasket.add(beer);
+        assertEquals(9, shoppingBasket.total());
+    }
 }

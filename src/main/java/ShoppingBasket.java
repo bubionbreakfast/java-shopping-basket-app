@@ -10,6 +10,7 @@ public class ShoppingBasket {
     private String name;
     private int capacity;
     private ArrayList<IItem> items;
+    IItem getPrice;
 
     public ShoppingBasket(String name, int capacity) {
         this.name = name;
@@ -47,5 +48,14 @@ public class ShoppingBasket {
 
     public void empty() {
         this.items.clear();
+    }
+
+
+    public int total() {
+       int basketTotal = 0;
+       for(IItem item : this.items){
+           basketTotal += item.getPrice();
+       }
+       return basketTotal;
     }
 }

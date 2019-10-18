@@ -4,8 +4,9 @@
     <list default="true" id="5cd14199-2f30-4e80-a4cb-ac954f1e19fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
   <component name="ProjectId" id="1SNBk5caOC3Kiocgz1xBEivWs9X" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -53,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canEmptyBasket">
+  <component name="RunManager" selected="JUnit.ShoppingBasketTest.canGetBasketTotal">
     <configuration name="ShoppingBasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingBasket" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,21 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingBasketTest.canAddItemToBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingBasket" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
-      <option name="METHOD_NAME" value="canAddItemToBasket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShoppingBasketTest.canEmptyBasket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingBasket" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
       <option name="METHOD_NAME" value="canEmptyBasket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingBasketTest.canGetBasketTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingBasket" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShoppingBasketTest" />
+      <option name="METHOD_NAME" value="canGetBasketTotal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingBasketTest.canGetBasketTotal" />
         <item itemvalue="JUnit.ShoppingBasketTest.canEmptyBasket" />
         <item itemvalue="JUnit.ShoppingBasketTest.canRemoveItem" />
         <item itemvalue="JUnit.ShoppingBasketTest" />
         <item itemvalue="JUnit.ShoppingBasketTest.canAddItem" />
-        <item itemvalue="JUnit.ShoppingBasketTest.canAddItemToBasket" />
       </list>
     </recent_temporary>
   </component>

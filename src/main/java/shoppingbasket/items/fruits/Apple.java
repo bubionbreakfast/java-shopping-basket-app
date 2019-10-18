@@ -11,4 +11,8 @@ public class Apple extends Item implements IItem {
     public String add(String item) {
         return null;
     }
+
+    public int total() {
+        return 0;
+    }
 }

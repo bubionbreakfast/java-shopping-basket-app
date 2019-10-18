@@ -6,4 +6,7 @@ public interface IItem {
 
     String add(String item);
 
+    int total();
+
+    int getPrice();
 }
