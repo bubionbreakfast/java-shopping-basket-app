@@ -19,4 +19,17 @@ public class Beer extends Item implements IItem {
     public int index() {
         return 0;
     }
+
+    public double setTotal(double total) {
+        return 0;
+    }
+
+    public double setTotal(int total) {
+        return 0;
+    }
+
+
+    public double setTotal() {
+        return 0;
+    }
 }

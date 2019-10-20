@@ -20,6 +20,15 @@ public class Beef extends Item implements IItem {
         return 0;
     }
 
+    public double setTotal(double total) {
+        return 0;
+    }
+
+    public double setTotal(int total) {
+        return 0;
+    }
+
+
     public int price(int item) {
         return this.getPrice();
     }

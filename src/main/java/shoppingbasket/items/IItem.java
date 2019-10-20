@@ -13,4 +13,6 @@ public interface IItem {
     String getName();
 
     int index();
+
+    double setTotal(double total);
 }
