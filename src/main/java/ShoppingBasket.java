@@ -14,13 +14,15 @@ public class ShoppingBasket {
     private ArrayList<IItem> items;
     private double over20PoundDiscountValue;
     private double basketTotal;
+    private boolean card;
 
-    public ShoppingBasket(String name, int capacity, double over20PoundDiscountValue, double basketTotal) {
+    public ShoppingBasket(String name, int capacity, double over20PoundDiscountValue, double basketTotal, boolean card) {
         this.name = name;
         this.capacity = capacity;
         this.items = new ArrayList<IItem>();
         this.over20PoundDiscountValue = over20PoundDiscountValue;
         this.basketTotal = basketTotal;
+        this.card = card;
     }
 
     public int getCapacity() {
@@ -84,16 +86,23 @@ public class ShoppingBasket {
                 return basketTotal;
     }
 
+    public double getCardDiscount(){
+//        double basket = 0;
+//        for(IItem item : this.items){
+//            basket += item.getPrice();
+//        }
+//        basketTotal = basket;
+        basketTotal = getBasketTotal();
+
+        if(card = !true){
+            return basketTotal * 1;
+        } else
+            return basketTotal * 0.98;
+    }
+
     public void setBasketTotal(double basketTotal) {
         this.basketTotal = basketTotal;
     }
 
-//    public double over20PoundsDiscount() {
-//        double basket = 0;
-//        for(IItem item : this.items){
-//            basket += item.getPrice() * 0.9;
-//        }
-//        basketTotal = basket * 0.9;
-//        return basketTotal * 0.9;
-//    }
+
 }

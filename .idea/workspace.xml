@@ -4,20 +4,8 @@
     <list default="true" id="5cd14199-2f30-4e80-a4cb-ac954f1e19fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShoppingBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/IItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/drinks/Beer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/drinks/Beer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/fruits/Banana.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Beef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shoppingbasket/items/meats/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShoppingBasketTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShoppingBasket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/IItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/IItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/drinks/Beer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/drinks/Beer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Banana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/fruits/Banana.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Beef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Beef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shoppingbasket/items/meats/Chicken.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShoppingBasketTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

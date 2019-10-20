@@ -24,7 +24,7 @@ public class ShoppingBasketTest {
         apple = new Apple("Cox", 1);
         chicken = new Chicken("roast", 15);
 
-        shoppingBasket = new ShoppingBasket("Daves Basket", 10, 0.9,  0);
+        shoppingBasket = new ShoppingBasket("Daves Basket", 10, 0.9,  0, false);
     }
 
     @Test
@@ -108,7 +108,6 @@ public class ShoppingBasketTest {
         shoppingBasket.add(beef);
         shoppingBasket.add(chicken);
         shoppingBasket.buy1Get1Free();
-//        shoppingBasket.over20PoundsDiscount();
-        assertEquals(21.6,shoppingBasket.getBasketTotal(), DELTA);
+        assertEquals(21.168,shoppingBasket.getCardDiscount(), DELTA);
     }
 }
